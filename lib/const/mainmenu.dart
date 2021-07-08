@@ -15,6 +15,7 @@ class MainMenu extends StatelessWidget {
         FlutterLogo(),
         Text('My Web'),
         Spacer(),
+        // show popupmenu if in mobile size breaking point 520
         (scWidth > 520)
             ? Flex(
                 direction: Axis.horizontal,
