@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:webnav2/const.dart';
-import 'package:webnav2/mainmenu.dart';
+import 'package:webnav2/const/mainmenu.dart';
 
 class ContactPage extends StatefulWidget {
   ContactPage({Key? key}) : super(key: key);
